@@ -1,16 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #ffe4b5;
+}
+
 body {
 	opacity: 0;
+	border: 20px solid saddlebrown;
+	color: #333;
+	box-sizing: border-box;
 	width: 100%;
 	min-height: 100%;
-	border: 20px solid steelblue;
-	color: #333;
 	font-family: 'Roboto', sans-serif;
-	font: 16px/1.8 sans-serif;
+	font: 18px/1.8 sans-serif;
 	margin: 0px;
 }
 
 div {
 	display: block;
+}
+
+#me {
+	font-size: 36px;
+	color: #8b5a00;
 }
 
 .container {
@@ -23,9 +36,11 @@ div {
 	max-width: 760px;
 	margin: 0 auto 0;
 	padding: 0 40px 0 40px;
+	text-align: center;
 }
 
 .bottom {
 	display: block;
+	text-align: center;
 }
 
