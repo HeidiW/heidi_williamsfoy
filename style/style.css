@@ -11,18 +11,19 @@ body {
 	color: #333;
 	box-sizing: border-box;
 	width: 100%;
-	min-height: 100%;
+	height: 100%;
 	font: 18px/1.8 sans-serif;
 	margin: 0px;
 }
 
-div {
-	display: block;
-}
-
 img {
 	vertical-align: top;
-	height: 100%;
+	width: 100%;
+	max-width: 300px;
+}
+
+div {
+	display: block;
 }
 
 #scale-up {
@@ -39,8 +40,11 @@ img {
 .container {
 	min-height: 100%;
 	font-family: 'Roboto', sans-serif;
-	position: relative;
-	display: block;
+}
+
+.photo, .content {
+	margin: 150px 0; /* Spacing on the top */
+	border: 1px solid green;
 }
 
 .top {
@@ -55,3 +59,15 @@ img {
 	text-align: center;
 }
 
+
+@media screen (min-width: 1000px) {
+  .column: { /* Make the image and content stack */
+    float: none;
+  }
+  .one-half.column: { /* Make the image and content full width */
+    width: 96%; 
+  }
+  .photo: { /* Remove spacing on the top */
+	margin: 0px 0;
+	}
+}

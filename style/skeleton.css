@@ -412,7 +412,14 @@ there.
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media screen (min-width: 1000px) {
+  .column: {
+    float: none;
+  }
+  .one-half.column: {
+    width: 96%;
+  }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
