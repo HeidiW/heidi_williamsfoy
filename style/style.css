@@ -2,12 +2,12 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background-color: rgba(230,224,203,0.3);
+	background-color: #d9d9d9;
 }
 
 body {
 	opacity: 0;
-	border: 20px solid saddlebrown;
+	border: 20px solid chartreuse;
 	color: #333;
 	box-sizing: border-box;
 	width: 100%;
@@ -34,7 +34,7 @@ div {
 #me {
 	font-family: 'Lato', sans-serif;
 	font-size: 42px;
-	color: #8b5a00;
+	color: #9400D3;
 }
 
 .container {
@@ -44,7 +44,10 @@ div {
 
 .photo, .content {
 	margin: 150px 0; /* Spacing on the top */
-	border: 1px solid green;
+}
+
+.photo {
+		/*border: 10px solid orange;*/
 }
 
 .top {
@@ -54,10 +57,10 @@ div {
 	text-align: center;
 }
 
-.bottom {
+/*.bottom {
 	display: block;
 	text-align: center;
-}
+} */
 
 
 @media screen (min-width: 1000px) {
