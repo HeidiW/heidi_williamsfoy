@@ -47,7 +47,13 @@ div {
 }
 
 .photo {
-		/*border: 10px solid orange;*/
+	padding-right: 4%;
+	text-align: right;
+}
+
+.photo img {
+	border: 10px solid orange;
+
 }
 
 .top {
