@@ -14,7 +14,12 @@
 		<!-- <div class="top" style="padding-top:3px;"> -->
 		<div class="photo column one-half">
 			<div id="scale-up" style="height: 230px">
- 				<img src="http://i.imgur.com/PQgBk5C.jpg" alt="">
+				<picture>
+                <source media="(min-width: 800px)" srcset="http://i.imgur.com/PQgBk5C.jpg">
+                <source media="(min-width: 450px)" srcset="http://i.imgur.com/PQgBk5C.jpg">
+                <img src="http://i.imgur.com/PQgBk5C.jpg" alt="My photo goes here">
+               </picture>
+ 				
 			</div>
 		</div>
 

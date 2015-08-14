@@ -6,11 +6,11 @@ html, body {
 }
 
 body {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	opacity: 0;
 	border: 20px solid chartreuse;
 	color: #333;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
 	font: 18px/1.8 sans-serif;
